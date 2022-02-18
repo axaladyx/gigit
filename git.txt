@@ -1,0 +1,49 @@
+$ git --version
+Memeriksa versi git
+
+$ git --help
+Membuka dokumentasi/panduan git
+
+$ git config user.name
+Melihat informasi username
+
+$ git config user.email
+Melihat informasi email
+
+$ git config --global user.name rochafialvin
+Melakukan konfigurasi username
+
+$ git config --global user.email rochafi.dev@gmail.com
+Melakukan konfigurasi email
+
+$ git init
+Melakukan inisialisasi repository git
+
+$ git status
+Melihat status project saat ini
+
+$ git add git.txt
+Mengcopy file git.txt dari working directory ke stage area
+
+$ git add git.txt shell.txt
+Mengcopy file git.txt dan shell.txt dari working directory ke stage area
+
+$ git add .
+Mengcopy semua file dan directory dari working directory ke stage area
+
+$ git commit -m "create files: git.txt, shell.txt"
+Membuat commit dengan pesan create files: git.txt, shell.txt
+
+$ git log
+Melihat daftar commit dengan informasi lengkap
+
+$ git log --oneline
+Melihat daftar commit dengan informasi singkat
+
+$ git restore register.js
+Mengcancel perubahan yang terjadi pada file register
+
+$ git checkout bdef8cf
+Melihat kondisi project pada commit dengan id bdef8cf (masa lalu)
+
+$ git checkout main 
